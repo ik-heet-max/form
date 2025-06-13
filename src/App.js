@@ -2,8 +2,10 @@ import { Typography } from 'antd';
 
 import MyForm from './components/MyForm';
 import Silk from './components/Silk';
+import useTelegram from './hooks/useTelegram';
 
 function App() {
+  useTelegram();
   const { Text, Title } = Typography;
 
   return (
