@@ -1,8 +1,10 @@
 {
   "homepage": "https://github.com/ik-heet-max/form.git",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "name": "fastfront",
   "version": "0.1.0",
@@ -22,12 +24,6 @@
     "tailwindcss": "^4.1.8",
     "three": "^0.177.0",
     "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
