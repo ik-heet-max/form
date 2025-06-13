@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "homepage": "https://ik-heet-max.github.io/form/",
   "scripts": {
     "start": "react-scripts start",
@@ -9,22 +8,16 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-=======
->>>>>>> 3122881 (Initialize project using Create React App)
   "name": "fastfront",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
     "@react-three/fiber": "^9.1.2",
     "@tailwindcss/cli": "^4.1.8",
-=======
->>>>>>> 3122881 (Initialize project using Create React App)
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
-<<<<<<< HEAD
     "antd": "^5.25.4",
     "axios": "^1.9.0",
     "react": "^19.1.0",
@@ -34,7 +27,6 @@
     "three": "^0.177.0",
     "web-vitals": "^2.1.4"
   },
-=======
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-scripts": "5.0.1",
@@ -46,7 +38,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
->>>>>>> 3122881 (Initialize project using Create React App)
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -64,11 +55,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-<<<<<<< HEAD
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
-=======
->>>>>>> 3122881 (Initialize project using Create React App)
   }
 }
