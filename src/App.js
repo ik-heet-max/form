@@ -5,7 +5,10 @@ import Silk from './components/Silk';
 import useTelegram from './hooks/useTelegram';
 
 function App() {
-  useTelegram();
+  useTelegram():
+  const tg = window.Telegram?.WebApp;
+  const user = tg?.initDataUnsafe?.user; // User info
+  const queryId = tg?.initDataUnsafe?.query_id; // For backend auth
   const { Text, Title } = Typography;
 
   return (
